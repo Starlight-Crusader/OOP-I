@@ -6,23 +6,23 @@ all the materials: sreenshots and scripts.
 I have intalled a UNIX-based operating system - *Linux* (*Ubuntu*) as dual boot.
 
 ## Task II 
-In order to install *zsh* I've executed the following commands in the Terminal:
-<br/>	1. *sudo apt-get update*;<br/>
-	2. *sudo apt-get intall zsh -y*;<br/>
-	3. *chsh -s /usr/bin/zsh* (makes the zsh to be the default shell);<br/>
-	4. *zsh* (configuration process).
+In order to install *zsh* I've executed the following commands in the Terminal:<br/>
+&nbsp;&nbsp;&nbsp; 1. *sudo apt-get update*;<br/>
+&nbsp;&nbsp;&nbsp; 2. *sudo apt-get intall zsh -y*;<br/>
+&nbsp;&nbsp;&nbsp; 3. *chsh -s /usr/bin/zsh* (makes the zsh to be the default shell);<br/>
+&nbsp;&nbsp;&nbsp; 4. *zsh* (configuration process).
 
-Then I've installed and configured (picked a theme) *oh-my-zsh*:
-<br/>	1. *sudo apt install curl git*;<br/>
-	2. *sh -c "$(curl -fsSL URL)"*;<br/>
-	3. *nano ~/.zshrc*<br/>
+Then I've installed and configured (picked a theme) *oh-my-zsh*:<br/>	
+&nbsp;&nbsp;&nbsp; 1. *sudo apt install curl git*;<br/>
+&nbsp;&nbsp;&nbsp; 2. *sh -c "$(curl -fsSL URL)"*;<br/>
+&nbsp;&nbsp;&nbsp; 3. *nano ~/.zshrc*
 (In the screenshots folder You can see I've picked af-magic.zsh-theme).
 
 ## Task III
 I've installed the gcc compiler as part of the build-essential package and
-checked the version I've istalled:
-<br/>	1. *sudo apt-get install*;<br/>
-	2. *gcc --version* ("gcc (Ubuntu 11.2.0-19ubuntu1) 11.2.0").
+checked the version I've istalled:<br/>	
+&nbsp;&nbsp;&nbsp; 1. *sudo apt-get install*;<br/>
+&nbsp;&nbsp;&nbsp; 2. *gcc --version* ("gcc (Ubuntu 11.2.0-19ubuntu1) 11.2.0").
 
 Then I had wrote *hello.c* and compiled it executing: *gcc hello.c -o hello*.
 After that I've prepared *makefile* that after *make hellomake* compiles
